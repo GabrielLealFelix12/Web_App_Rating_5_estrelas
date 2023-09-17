@@ -38,7 +38,7 @@ CREATE TABLE `unidade` (
   `NOME` varchar(100) NOT NULL,
   `ENDERECO` varchar(100) NOT NULL,
   `COD` int(11) NOT NULL,
-  `ID` int(11) NOT NULL DEFAULT current_timestamp()
+  `ID` bigint(255) NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
