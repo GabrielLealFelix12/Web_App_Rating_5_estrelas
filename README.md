@@ -1,4 +1,4 @@
-# Projeto_Rating_5_estrelas
+# Web_App_5_estrelas
 Web app que permite a avaliação de funcionários por meio de QR code.</br>
 Construido com vanilla PHP, vanilla JS(em conjunto com qrcode.js) e SQL(banco de dados MariaDB).
 
