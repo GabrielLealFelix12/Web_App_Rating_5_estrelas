@@ -72,9 +72,6 @@ if ($result->num_rows > 0) {
   echo "</table>";
 }
   else{
-    echo "<script type='application/javascript'>
-            alert('Nenhum resultado encontrado');
-      </script>";
     echo "<p>Nenhum colaborador encontrado</p>";
   }
 
@@ -88,7 +85,6 @@ if ($result->num_rows > 0) {
 <?php 
 function ReadQueryUnidade($zequery){
 global $conexao, $query_unidade;
-echo $query_unidade;
 
 $result = $conexao->query($zequery);
 
