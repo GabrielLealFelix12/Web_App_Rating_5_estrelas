@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+<title> Lista de colaboradores </title>
+</head>
+
+<body>
+
+<ul>
+  <li><a href="cadastrounidade.html"> Cadastro de Unidades </a></li>
+  <li><a href="cadastrocolaborador.html"> Cadastro de Colaboradores </a></li>
+    <li><a href="listacolaboradores.html"> Lista de Colaboradores e unidades </a></li>
+  <li><a href="login.html" onclick="SaidaPage()"> Sair </a></li>
+</ul><br>
+
+<div id="formtosearch">
+<form id="searchquery_colab" method="post">
+<br><input type="search" id='searchquery' name='searchquery' size='25' onchange="getthevalueofsearchquery()">
+</form>
+
+<button id="buttonquery" type="submit" onclick="MostrarColaboradores(event)">
+<img style=" max-width: 15%;height: auto;"src="imagens_app/lupa.png" alt="img_perfil"> 
+</button>
+<div>
+<select id="unidades_colabs" name="unidades_colabs" onchange="gettheoptionvalue()">
+    <option value="colaborador" selected> Colaborador </option>
+    <option value="Unidade"> Unidade </option>
+</select>
+</div>
+</div>
+
+
+<div id ="lista"></div>
+
+</body>
+
+<link rel="stylesheet" href="css/listacolaboradores.css">
+<script type="application/javascript" src="javascript/listacolaboradores_unidades.js"></script>
+</html>

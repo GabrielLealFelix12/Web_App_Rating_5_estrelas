@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">      
+<title> 5 star rating </title>
+</head>
+
+<body>
+
+<h1> Unidade: </h1>
+<img class="imagem_perfil" src="imagens_perfil/perfil_blank.png" alt="img_perfil"> <br>
+<h1> Nome: </h1>
+
+<div class="rating">
+ 
+  <input type="radio" name="rating" value="5" id="5" onclick="console.log(this.value);"><label for="5">☆</label>
+  
+  
+  <input type="radio" name="rating" value="4" id="4" onclick="console.log(this.value);"><label for="4">☆</label>
+  
+  
+  <input type="radio" name="rating" value="3" id="3" onclick="console.log(this.value);"><label for="3">☆</label>
+  
+  <input type="radio" name="rating" value="2" id="2" onclick="console.log(this.value);"><label for="2">☆</label>
+  
+
+  <input type="radio" name="rating" value="1" id="1" onclick="console.log(this.value);"><label for="1">☆</label>
+
+
+</div>
+
+<br>
+
+
+<div class="comment">
+  <br>
+<label for="review_empregado" style="text-align: center;">Deixe um comentário!</label>
+<br>
+</div>
+<div style="display: flex; justify-content: center;">
+<textarea id="review" name="review_empregado"
+rows="4" cols="50"></textarea>
+</div>
+
+
+
+</body>
+
+<link rel="stylesheet" href="css/estrelas.css">
+
+</html>
