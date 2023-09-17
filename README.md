@@ -8,3 +8,8 @@ Construido com vanilla PHP, vanilla JS(em conjunto com qrcode.js) e SQL(banco de
 -> No arquivo ``` Teste_Rating_5_stars/id20546007_5estrelas.sql ``` contém as estruturas das tabelas, necessárias para o funcionamento da aplicação. Lembre-se de importar ou copiar e colar no banco de dados da sua escolha. <br>
 
 -> No arquivo ``` Teste_Rating_5_stars/php/listacolaboradores_unidades.php ``` existem querys que utilizam o comando RLIKE.
+<br>
+
+# Demonstração
+Segue abaixo um link de demonstração da aplicação:<br>
+https://meuprojeto2023.000webhostapp.com/Teste_Rating_5_stars/login.html
