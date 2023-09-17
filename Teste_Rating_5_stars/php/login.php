@@ -11,9 +11,6 @@ $senha = $_POST["senha"];
  $queril = "SELECT * FROM users WHERE usuario='$usuario'";
  $resultado = $conexao->query($queril);
  $linha = $resultado->fetch_array();
-$loc = "location:";
-$redirect = $local."/Teste_Rating_5_stars/cadastrocolaborador.html";
-$final = $loc.$redirect;
 
 if ($senha == $linha['senha'] && $usuario == $linha['usuario']) {
    $_SESSION["loggedin"] = true;
