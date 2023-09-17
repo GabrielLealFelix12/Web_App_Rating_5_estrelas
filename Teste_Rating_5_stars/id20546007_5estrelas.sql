@@ -20,7 +20,8 @@ CREATE TABLE `colaborador` (
 CREATE TABLE `reviews` (
   `USERPFP` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
   `COMENTARIO` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `ESTRELAS` int(1) NOT NULL
+  `ESTRELAS` int(1) NOT NULL,
+  `id` int(255) NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
